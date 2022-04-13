@@ -12,7 +12,6 @@ PRODUCT_PACKAGES += \
     vendor_super_fsg_mountpoint \
     vendor_super_modem_mountpoint
 
-PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
