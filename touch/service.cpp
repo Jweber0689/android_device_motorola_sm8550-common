@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "lineage.touch@1.0-service.lge_msmnile"
+#define LOG_TAG "lineage.touch@1.0-service.moto_sm8550"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

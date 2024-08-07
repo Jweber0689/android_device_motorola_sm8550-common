@@ -370,7 +370,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.rtwo
+    vendor.lineage.touch@1.0-service.moto_sm8550
 
 # Update engine
 PRODUCT_PACKAGES += \
