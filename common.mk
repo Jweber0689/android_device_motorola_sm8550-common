@@ -413,9 +413,5 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
-# WiFi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm8550-common/sm8550-common-vendor.mk)
