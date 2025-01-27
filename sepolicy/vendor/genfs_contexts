@@ -42,9 +42,6 @@ genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a90000.spi/spi_
 # UFS
 genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:4/block/sde/queue/discard_max_bytes u:object_r:vendor_sysfs_mmc_host:s0
 
-# Vibrator
-genfscon sysfs /devices/platform/soc/984000.i2c/i2c-0/0-005a/leds/vibrator      u:object_r:sysfs_vibrator:s0
-
 # Wakeup
 genfscon sysfs /devices/platform/soc/1e00000.qcom,ipa/wakeup/wakeup             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/984000.i2c/i2c-0/0-005a/wakeup/wakeup      u:object_r:sysfs_wakeup:s0
