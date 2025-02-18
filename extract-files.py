@@ -84,13 +84,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libhidlbase_shim.so'),
     'vendor/lib64/sensors.moto.so': blob_fixup()
         .add_needed('libbase_shim.so'),
-    (
-        'vendor/lib64/libqcrilNr.so',
-        'vendor/lib64/libril-db.so',
-    ): blob_fixup().binary_regex_replace(
-        rb'persist\.vendor\.radio\.poweron_opt',
-        rb'persist.vendor.radio.poweron_ign',
-    ),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
