@@ -428,9 +428,6 @@ DEVICE_MANIFEST_KALAMA_FILES += \
     hardware/qcom-caf/sm8550/audio/primary-hal/configs/common/manifest_non_qmaa.xml \
     hardware/qcom-caf/sm8550/audio/primary-hal/configs/common/manifest_non_qmaa_extn.xml
 
-# VNDK
-PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
-
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
