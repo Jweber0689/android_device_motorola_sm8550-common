@@ -39,14 +39,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>motorola.hardware.camera.imgtuner</name>
-        <version>1.0</version>
-        <interface>
-            <name>IImageTuning</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>motorola.hardware.fdrcontrol</name>
         <version>1.0-2</version>
         <interface>
