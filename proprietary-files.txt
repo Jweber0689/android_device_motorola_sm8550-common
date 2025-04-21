@@ -582,7 +582,6 @@ vendor/lib64/libllvm-qgl.so
 
 # Graphics - Adreno firmware
 vendor/gpu/kbc/sequence_manifest.bin
-vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
