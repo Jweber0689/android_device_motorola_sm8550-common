@@ -79,6 +79,7 @@
 /dev/socket/cutback                                     u:object_r:cutback_socket:s0
 
 # Same process hal files
+/vendor/lib(64)?/libportrait_repair_ppl3_ocl.so                     u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/panel_als_comp_filter_rtwo.so                      u:object_r:same_process_hal_file:s0
 
 # Secure Element
