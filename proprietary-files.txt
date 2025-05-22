@@ -15,8 +15,8 @@ vendor/bin/audioadsprpcd
 vendor/bin/loadalgo
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
 vendor/lib64/libadspd.so
+vendor/lib64/libadsprpc.so
 vendor/lib64/libloadalgo_stub.so
 
 # ADSP modules
@@ -575,42 +575,42 @@ vendor/etc/init/android.hardware.identity-service-qti.rc
 vendor/etc/vintf/manifest/manifest_identity_credential.xml
 vendor/lib64/libqtiidentitycredential.so
 
-# Ril - IMS (APK)
+# IMS (moto APK)
 system/etc/permissions/moto-telephony.xml:system_ext/etc/permissions/moto-telephony.xml
 system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
 
-# RIL - IMS - system_ext - from rtwo - 14 U1TRS34.8-30-13-2-2-5 15d9e-a5b839
-system_ext/app/ImsRcsService/ImsRcsService.apk|84cf30c3419437c7f4f0ca52ad68c4b55e25e205
-system_ext/app/QtiTelephony/QtiTelephony.apk|88b995b16bea2cdbc8328de4e359a1c3c40168d7
-system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|94fa56b15cdb6134e410a66c2418ac3002027f76
-system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|c5c9dd633c3f5450f315017cd4645a11de3d7ed3
-system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml|6c5084bef15012cf2a55426a35f696db3995ba16
-system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c76193acdc2f923fe7
-system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|1d81605e2f99b043be0a70a7b3d1fc68e60cc5f2
-system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar|da2203570a8398defb140f76ebf4fa07f513c741
-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|b870964be5fe952385718e23cf3e56a65bf1cad8
-system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|c36b5f62fd43d62bff6282320f3ed2ea0a18c27d
-system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|50c52c569b10da97639d4fc0004c0df2ee5a01ab
-system_ext/framework/vendor.qti.ims.factoryaidlservice-V1-java.jar|329df8446cba8cb3a16dab1d0fc5624f1ac8ffe5
-system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar|74f18e563abddaeabc7821d58d6df28e370eb737
-system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar|470498817c809e32290f6adc7a0fc66a48c2b678
-system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar|813ba6d5ba578ab148dfe3cbde79aa69aaf4c6d6
-system_ext/framework/vendor.qti.ims.rcssipaidlservice-V1-java.jar|00ab4d763bd95cc428e3cdfe725a63c4b8d721d3
-system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar|4feb1dee0a2c32248dc6000d2d1ad605e1c9cc0d
-system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar|f734b46b12348d3fe38fd874809d7d918e01f863
-system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar|f68862295f5ae16f10ee8ab3650f42c8b150db4a
-system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar|45546607399adada54c166b0fb63ad648c6eda1e
-system_ext/lib64/lib-imsvideocodec.so|05c1c68e1808cc075bbb75e124f26a2445764193
-system_ext/lib64/lib-imsvt.so|0517dff9db29cbf4a2a62706e1ce3b322cf1d681
-system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
-system_ext/lib64/lib-imsvtutils.so|43a6fda66f13f86156f05a7f2b1681d0e5df4c8c
-system_ext/lib64/libdiag_system.so|290d58dac7a3355699e8c0af713249fcebbdf601
-system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|85f58c7cc4b84ca953f1d5e24500cc816a921b3d
-system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|a626f7dbd5bdb26b926a64d26c6a721469b8264f
-system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|bb32703c026364da33ca1b4f83c839e1e312ae9b
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
-system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
-system_ext/priv-app/ims/ims.apk|4fdc9a0f32b9bd4de7a5d88cfb5894b483364e25|ac7fd1a5d780d5cd29feaf8eeaf0f88d96d6cc29
+# IMS - system_ext
+system_ext/app/ImsRcsService/ImsRcsService.apk
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
+system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
+system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
+system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
+system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar
+system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
+system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar
+system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar
+system_ext/framework/vendor.qti.ims.factoryaidlservice-V1-java.jar
+system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar
+system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar
+system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar
+system_ext/framework/vendor.qti.ims.rcssipaidlservice-V1-java.jar
+system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar
+system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar
+system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar
+system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar
+system_ext/lib64/lib-imsvideocodec.so
+system_ext/lib64/lib-imsvt.so
+system_ext/lib64/lib-imsvtextutils.so
+system_ext/lib64/lib-imsvtutils.so
+system_ext/lib64/libdiag_system.so
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
+system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
+system_ext/priv-app/QtiTelephony/QtiTelephony.apk
+system_ext/priv-app/ims/ims.apk
 
 # IMS
 vendor/bin/ims-dataservice-daemon
