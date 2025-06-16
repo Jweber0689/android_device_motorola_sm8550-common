@@ -1,6 +1,6 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from edge 40 pro (15 V1TR35H.60-33 d7ecee-e847d6).
-## RETAIL variant
+## are from edge 40 pro (15 V1TRS35H.60-33-5 7195d7-c0632).
+## variant: RETAIL
 
 # Current blobs with ELF checks disabled:
 # audio.primary.kalama.so depends on liblx-osal and vendor.qti.hardware.AGMIPC@1.0-impl, which are gnu makefile targets
@@ -947,8 +947,8 @@ vendor/bin/qrtr-lookup
 vendor/bin/qrtr-ns
 vendor/etc/init/qmipriod.debug.rc
 vendor/etc/init/qmipriod.rc
-vendor/etc/seccomp_policy/qti-systemd.policy
 vendor/etc/sec_config
+vendor/etc/seccomp_policy/qti-systemd.policy
 vendor/lib64/libidl.so
 vendor/lib64/libmdmcutback.so
 vendor/lib64/libmdmdetect.so
