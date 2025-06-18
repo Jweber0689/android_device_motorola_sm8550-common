@@ -579,6 +579,9 @@ vendor/lib64/libqtiidentitycredential.so
 system/etc/permissions/moto-telephony.xml:system_ext/etc/permissions/moto-telephony.xml
 system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
 
+# IMS (patched APK) - from edge 40 pro (15 V1TRS35H.60-33-5 7195d7-c0632) - RETAIL
+system_ext/priv-app/ims/ims.apk|01e018bc8cd64bb08f60c7ebb2ad65516f727fd7|fa23ea19d53e94c4a86a50ad114ba27ac168f07b
+
 # IMS - system_ext
 system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
@@ -610,7 +613,6 @@ system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 system_ext/priv-app/QtiTelephony/QtiTelephony.apk
-system_ext/priv-app/ims/ims.apk
 
 # IMS
 vendor/bin/ims-dataservice-daemon
