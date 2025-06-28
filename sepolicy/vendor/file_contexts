@@ -91,6 +91,7 @@
 /(vendor|system/vendor)/bin/mot_vsync_psd                                             u:object_r:vendor_mot_vsync_exec:s0
 
 # Touch
+/vendor/bin/hw/vendor\.lineage\.touch-service\.motorola                               u:object_r:hal_lineage_touch_default_exec:s0
 /vendor/bin/hw/vendor\.lineage\.touch@1\.0-service\.moto_sm8550                       u:object_r:hal_lineage_touch_default_exec:s0
 
 # Thermal
