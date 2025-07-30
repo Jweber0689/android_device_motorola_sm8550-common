@@ -241,6 +241,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail
 
+$(call soong_config_set,stagefright,target_disable_thumbnail_block_model,true)
+
 # Memtrack
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
