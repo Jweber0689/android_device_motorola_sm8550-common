@@ -177,7 +177,6 @@ PRODUCT_PACKAGES += \
     init.system.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    copy_qc_cert.sh \
     init.class_main.sh \
     init.kernel.post_boot-kalama_3_2_1.sh \
     init.kernel.post_boot-kalama_3_4_0.sh \
