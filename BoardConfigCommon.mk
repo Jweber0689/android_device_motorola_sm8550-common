@@ -51,7 +51,6 @@ TARGET_KERNEL_CONFIG := \
     vendor/ext_config/moto-kalama-gki.config
 
 # Kernel modules
-TARGET_KERNEL_SOURCE := kernel/motorola/sm8550
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/motorola/sm8550-modules
 
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(COMMON_PATH)/modules.load.system_dlkm))
